@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POST</title>
+</head>
+<body>
+    <form action = "http://localhost:5000" method = "post">
+         <table>
+            <tr>
+                <td>股票代码（例：000001.SZ）：</td>
+                <td><input type ="text" name ="ts_code"></td>
+            </tr>
+            <tr>
+                <td>开始时间（例：20230101）</td>
+                <td><input type ="text" name ="start_date"></td>
+            </tr>
+             <tr>
+                <td>结束时间（例：20231231）</td>
+                <td><input type ="text" name ="end_date"></td>
+            </tr>
+            <tr>
+                <td><input type = "submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
